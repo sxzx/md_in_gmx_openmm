@@ -45,7 +45,7 @@ def fix_pdb(pdb_id):
                  "w"),
             keepIds=True)
         return "%s_fixed_pH_%s.pdb" % (pdb_id.split('.')[0], 7)
-#os.chdir('/HOME/scz1720/run/softwares/NNEF/nnef/nnef/pdb_to_run/2jof/openmm_run')
+
 os.getcwd()
 
 # pre-fix
